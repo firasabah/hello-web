@@ -1,8 +1,21 @@
 body {
-  background-color: darkgreen;
+  background-color: lightcyan;
+  color: green;
+  margin: 1em;
+  padding: 1em;
 }
 
-h1 {
-  font-size: 3em;
-  color: white;
+h2 {
+  font-weight: 100;
+  background-color: antiquewhite;
+  padding: 1em;
+}
+
+button {
+  background-color: antiquewhite;
+  border-color: lightgreen;
+  border-radius: 0.425em;
+  padding: 1em;
+  margin-top: 1em;
+  font-size: 1em;
 }
