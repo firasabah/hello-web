@@ -1,9 +1,13 @@
 // app.js
-var counter = 0;
-resetCounter();
-function resetCounter() {
-    document.querySelector("#counter").innerHTML = 0;
-}
+var counter = undefined;
+
 function counterUp() {
-    document.querySelector("#counter").innerHTML = ++counter;
+  document.querySelector("#counter").innerHTML = ++counter;
 }
+
+function resetCounter() {
+  counter = 0;
+  document.querySelector("#counter").innerHTML = counter;
+}
+
+resetCounter();
